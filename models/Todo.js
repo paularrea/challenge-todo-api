@@ -7,7 +7,13 @@ let Todo = new Schema({
   },
   body: {
     type: String
-  }
+  },
+  date: {
+    type: String
+  },
+  imageUrl: {
+    type: String
+  },
 },{ timestamps: true }
 );
 
